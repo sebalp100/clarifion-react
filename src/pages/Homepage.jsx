@@ -1,6 +1,6 @@
 const Homepage = () => {
   return (
-    <main className="flex px-[5.55vw] sm:px-0 flex-col items-center justify-center">
+    <main className="flex px-[5.5vw] gap-6 sm:gap-0 sm:px-0 flex-col items-center justify-center">
       <div className="flex justify-between w-full py-5 sm:py-0 sm:px-[127px]">
         <img
           src="images/logo.svg"
@@ -13,16 +13,15 @@ const Homepage = () => {
           alt="logos"
         />
       </div>
-      <div className="flex pt-8 sm:pt-0 flex-col text-center gap-[24px] items-center">
+      <div className="flex pt-[26px] sm:pt-0 flex-col text-center gap-[24px] items-center">
         <h2 className="text-[32px] sm:text-[48px] leading-[44.8px] sm:leading-[48px]">
           Wait ! your order in progress.
         </h2>
         <h3 className="text-[16px] sm:text-[24px] leading-[22.4px] capitalize sm:leading-[24px] text-[#4D5254]">
-          Lorem ipsum dolor sit amet, consectetur{' '}
-          <span className="hidden sm:inline">adipiscing</span>
+          Lorem ipsum dolor sit amet, consectetur adipiscing
         </h3>
       </div>
-      <div className="flex pt-[60px] w-full text-[12px] sm:text-[20px] leading-[22px] justify-between sm:px-[8.46%]">
+      <div className="flex sm:pt-[60px] w-full text-[12px] sm:text-[20px] leading-[22px] justify-between sm:px-[8.46%]">
         <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-[20px]">
           <span className="relative h-5 w-5 sm:h-[40px] sm:w-[40px] bg-[#85BF55] rounded-full">
             <img
@@ -64,7 +63,7 @@ const Homepage = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-center sm:bg-[#FAFAFA] rounded-[10px] sm:p-[40px] sm:mx-[8.46%] mt-[40px] mb-[61px] gap-[2.67vw] justify-between">
+      <div className="flex items-center sm:bg-[#FAFAFA] rounded-[10px] sm:p-[40px] sm:mx-[8.46%] sm:mt-[40px] mb-[50px] sm:mb-[61px] gap-[2.67vw] justify-between">
         <div className="w-[38.34vw] hidden sm:flex flex-col">
           <img src="images/product-big.png" alt="product image" />
           <div className="p-[24px] bg-white flex flex-col gap-[18px] mt-[24px]">
@@ -99,7 +98,7 @@ const Homepage = () => {
             </p>
           </div>
         </div>
-        <div className="sm:!w-[36.67vw] relative flex flex-col gap-8">
+        <div className="sm:!w-[36.67vw] relative flex flex-col gap-6 sm:gap-8">
           <h3 className="text-[24px] capitalize sm:px-0 sm:text-[32px] leading-[33.6px] sm:leading-[44.8px] text-center sm:text-start">
             <span className="text-[#2C7EF8]">ONE TIME ONLY</span> special price
             for 6 extra Clarifion for only{' '}
@@ -218,12 +217,14 @@ const Homepage = () => {
               Yes - Claim my discount{' '}
               <img src="images/arrow.svg" alt="Arrow icon" />
             </button>
-            <div className="flex items-center gap-3 text-[12px] border-[1px] border-[#CFCFCF] sm:border-0 flex-wrap mt-[12px] justify-center sm:justify-between py-[8px] px-[16px] #4D5254 text-[#4D5254]">
-              <span className="">Free shipping</span>
-              <span className="bg-[#CFCFCF] h-4 w-[1px]"></span>
-              <div className="flex gap-[10px] items-center justify-center">
-                <img src="images/lock-gray.svg" alt="Lock icon" />
-                <span>Secure 256-bit SSL encryption.</span>
+            <div className="flex flex-col gap-3 md:flex-row items-center text-[12px] border-[1px] rounded-[4px] border-[#CFCFCF] md:border-0 mt-[12px] justify-center sm:justify-between py-[8px] px-[16px] #4D5254 text-[#4D5254]">
+              <div className="flex gap-3 items-center justify-center pb-[12px] border-b-[1px] border-[#CFCFCF] md:border-0">
+                <span className="w-[76px] sm:w-auto">Free shipping</span>
+                <span className="bg-[#CFCFCF] h-4 w-[1px]"></span>
+                <div className="flex gap-2 w-[192px] sm:w-auto sm:gap-[10px] items-center justify-center">
+                  <img src="images/lock-gray.svg" alt="Lock icon" />
+                  <span className="">Secure 256-bit SSL encryption.</span>
+                </div>
               </div>
               <span className="bg-[#CFCFCF] h-4 w-[1px] hidden sm:inline"></span>
               <img
@@ -234,7 +235,7 @@ const Homepage = () => {
             </div>
             <a
               href="#"
-              className="text-[#F82C2C] text-center uppercase text-[18px] leading-[24.59px] font-medium underline mt-[20px]"
+              className="text-[#F82C2C] text-center uppercase text-[12px] sm:text-[18px] leading-[24.59px] font-medium underline mt-[20px]"
             >
               No thanks, I don’t want this.
             </a>
@@ -243,9 +244,9 @@ const Homepage = () => {
             <img
               src="images/guarantee.svg"
               alt="Guarantee image"
-              className="max-h-[88px]"
+              className="max-h-[48px] sm:max-h-[88px]"
             />
-            <p className="leading-[22.4px] text-[#4D5254]">
+            <p className="text-[12px] leading-[16.8px] sm:leading-[22.4px] sm:text-base text-[#4D5254]">
               If you are not completely thrilled with your Clarifion - We have a{' '}
               <span className="font-bold">30 day satisfaction guarantee</span>.
               Please refer to our return policy at the bottom of the page for
