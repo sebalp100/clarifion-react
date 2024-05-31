@@ -235,7 +235,7 @@ const Homepage = () => {
             </div>
             <a
               href="#"
-              className="text-[#F82C2C] text-center uppercase text-[12px] sm:text-[18px] leading-[24.59px] font-medium underline mt-[20px]"
+              className="text-[#F82C2C] text-center uppercase text-[12px] sm:text-[18px] leading-[24.59px] font-medium underline mt-[12px] md:mt-[20px]"
             >
               No thanks, I don’t want this.
             </a>
