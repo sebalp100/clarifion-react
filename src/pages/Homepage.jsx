@@ -64,10 +64,10 @@ const Homepage = () => {
         </div>
       </div>
       <div className="flex items-center md:bg-[#FAFAFA] rounded-[10px] md:p-[40px] md:mx-[8.46%] md:mt-[40px] mb-[50px] md:mb-[61px] gap-[2.67vw] justify-between">
-        <div className="w-[38.34vw] hidden md:flex flex-col">
+        <div className="w-[38.34vw] hidden md:flex gap-[24px] flex-col">
           <img src="images/product-big.png" alt="product image" />
-          <div className="p-[24px] bg-white flex flex-col gap-[18px] mt-[24px]">
-            <div className="flex gap-[13px]">
+          <div className="bg-white flex flex-col p-[24px] gap-[18px]">
+            <div className="flex">
               <img src="images/review.png" alt="Review photo" />
               <div className="flex flex-col gap-[7.35px] justify-center">
                 <div className="flex items-center gap-1">
@@ -221,7 +221,7 @@ const Homepage = () => {
               <div className="flex gap-3 items-center justify-center pb-[12px] xl:pb-0 border-b-[1px] border-[#CFCFCF] xl:border-0">
                 <span className="w-[76px]">Free shipping</span>
                 <span className="bg-[#CFCFCF] h-4 w-[1px]"></span>
-                <div className="flex gap-2 w-[194px] xl:gap-[10px] items-center justify-center">
+                <div className="flex gap-2 w-[194px] xl:gap-[10px] 2xl:w-auto items-center justify-center">
                   <img src="images/lock-gray.svg" alt="Lock icon" />
                   <span className="">Secure 256-bit SSL encryption.</span>
                 </div>
