@@ -22,7 +22,7 @@ const Homepage = () => {
         </h3>
       </div>
       <div className="flex md:pt-[60px] w-full text-[12px] md:text-[20px] leading-[22px] justify-between md:px-[8.46%]">
-        <div className="flex flex-col md:flex-row items-center gap-2 md:gap-[20px]">
+        <div className="flex flex-col xl:flex-row items-center gap-2 md:gap-[20px]">
           <span className="relative h-5 w-5 md:h-[40px] md:w-[40px] bg-[#85BF55] rounded-full">
             <img
               src="images/tick-circlecheckg.svg"
@@ -34,7 +34,7 @@ const Homepage = () => {
             <span className="hidden md:inline">Step 1 : </span>Cart Review
           </p>
         </div>
-        <div className="flex flex-col md:flex-row items-center gap-2 md:gap-[20px]">
+        <div className="flex flex-col xl:flex-row items-center gap-2 md:gap-[20px]">
           <span className="relative h-5 w-5 md:h-[40px] md:w-[40px] bg-[#85BF55] rounded-full">
             <img
               src="images/tick-circlecheckg.svg"
@@ -46,7 +46,7 @@ const Homepage = () => {
             <span className="hidden md:inline">Step 2 : </span>Checkout
           </p>
         </div>
-        <div className="flex flex-col md:flex-row items-center gap-2 md:gap-[20px]">
+        <div className="flex flex-col xl:flex-row items-center gap-2 md:gap-[20px]">
           <span className="flex items-center justify-center text-white text-[20px] h-5 w-5 md:h-[40px] md:w-[40px] bg-[#2C7EF8] rounded-full">
             <p className="text-[14px] md:text-[20px]">3</p>
           </span>
@@ -54,7 +54,7 @@ const Homepage = () => {
             <span className="hidden md:inline">Step 3 : </span>Special Offer
           </p>
         </div>
-        <div className="flex flex-col md:flex-row items-center gap-2 md:gap-[20px]">
+        <div className="flex flex-col xl:flex-row items-center gap-2 md:gap-[20px]">
           <span className="flex items-center justify-center text-[#2C7EF8] text-[20px] h-5 w-5 md:h-[40px] md:w-[40px] bg-[white] border-[#2C7EF8] border-[1px] md:border-[2px] rounded-full">
             <p className="text-[14px] md:text-[20px]">4</p>
           </span>
@@ -64,9 +64,13 @@ const Homepage = () => {
         </div>
       </div>
       <div className="flex items-center md:bg-[#FAFAFA] rounded-[10px] md:p-[40px] md:mx-[8.46%] md:mt-[40px] mb-[50px] md:mb-[61px] gap-[2.67vw] justify-between">
-        <div className="w-[38.34vw] hidden md:flex gap-[24px] flex-col">
-          <img src="images/product-big.png" alt="product image" />
-          <div className="bg-white flex flex-col p-[24px] gap-[18px]">
+        <div className="w-[38.34vw] hidden md:flex gap-[24px] flex-col flex-1 h-full">
+          <img
+            src="images/product-big.png"
+            alt="product image"
+            className="h-full"
+          />
+          <div className="bg-white flex flex-col p-[24px] gap-[18px] h-full">
             <div className="flex">
               <img src="images/review.png" alt="Review photo" />
               <div className="flex flex-col gap-[7.35px] justify-center">
@@ -98,7 +102,7 @@ const Homepage = () => {
             </p>
           </div>
         </div>
-        <div className="md:!w-[36.67vw] relative flex flex-col gap-6 md:gap-8">
+        <div className="md:!w-[36.67vw] relative flex flex-col gap-6 md:gap-8 flex-1 h-full">
           <h3 className="text-[24px] capitalize md:px-0 md:text-[32px] leading-[33.6px] md:leading-[44.8px] text-center md:text-start">
             <span className="text-[#2C7EF8]">ONE TIME ONLY</span> special price
             for 6 extra Clarifion for only{' '}
@@ -162,8 +166,8 @@ const Homepage = () => {
               </p>
             </div>
           </div>
-          <div>
-            <p className="leading-[16.8px] md:hidden text-center text-[12px] text-[#4D5254]">
+          <div className="md:hidden">
+            <p className="leading-[16.8px] text-center text-[12px] text-[#4D5254]">
               Simply plug a Clarifion into any standard outlet and replace
               bulky, expensive air purifiers with a simple.
             </p>
