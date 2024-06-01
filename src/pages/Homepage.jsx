@@ -157,7 +157,9 @@ const Homepage = () => {
                 />
               </div>
               <h6 className="flex gap-4 text-[#37465A] text-[12px] md:text-base items-center">
-                <span className="bg-[#2C7EF8] h-[8.53px] w-[8.53px] rounded-full"></span>
+                <div className="bg-[#E3EEFF] h-[16px] w-[16px] rounded-full flex justify-center items-center">
+                  <div className="bg-[#2C7EF8] h-[8.53px] w-[8.53px] rounded-full"></div>
+                </div>
                 12 left in Stock
               </h6>
               <p className="leading-[16.8px] hidden md:inline text-center md:text-start md:leading-[22.4px] text-[12px] md:text-base text-[#4D5254]">
@@ -167,7 +169,7 @@ const Homepage = () => {
             </div>
           </div>
           <div className="md:hidden">
-            <p className="leading-[16.8px] text-center text-[12px] text-[#4D5254]">
+            <p className="leading-[16.8px] text-center text-[12px] -mt-2 text-[#4D5254]">
               Simply plug a Clarifion into any standard outlet and replace
               bulky, expensive air purifiers with a simple.
             </p>
@@ -230,7 +232,7 @@ const Homepage = () => {
                   <span className="">Secure 256-bit SSL encryption.</span>
                 </div>
               </div>
-              <span className="bg-[#CFCFCF] h-4 w-[1px] hidden xl:inline-block"></span>
+              <span className="bg-[#CFCFCF] h-4 w-[1px] xl:pl-[1px] 2xl:pl-0 hidden xl:inline-block"></span>
               <img
                 src="images/cards.svg"
                 alt="Credit cards icons"
